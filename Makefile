@@ -3,7 +3,7 @@ CXXFLAGS=-g -Wall -std=c++11
 GTESTINCL := -I /usr/include/gtest/  
 GTESTLIBS := -lgtest -lgtest_main  -lpthread
 # Uncomment for parser DEBUG
-#DEFS=-DDEBUG
+# DEFS=-DDEBUG
 
 
 all: ht-test str-hash-test hash-check boggle-driver 
